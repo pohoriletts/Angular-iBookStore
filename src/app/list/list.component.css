@@ -1,0 +1,17 @@
+div{
+    margin: 25px;
+    margin-top: 60px;
+    display: inline-block;
+    text-align: center;
+}
+div p:first-of-type{
+    font-weight: bold;
+}
+div img{
+    width: 190px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+div img:hover{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}

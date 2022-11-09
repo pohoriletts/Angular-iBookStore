@@ -1,0 +1,6 @@
+<p *ngIf="books.length == 0">Book store is empy !</p>
+<div *ngFor="let book of books">
+    <img src={{book.cover}}>
+    <p>{{book.name |uppercase}}</p>
+    <p>{{book.description}}</p>
+</div>
